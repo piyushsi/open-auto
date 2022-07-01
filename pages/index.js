@@ -23,7 +23,7 @@ export default function Home() {
         <meta name="description" content="Open Auto" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" p-primary bg-primary bg-primary-image">
+      <main className=" p-primary bg-primary bg-primary-image" style={{ backgroundImage: "url('/Pickup_Illustration.png')" }}>
         <div className="pt-5">
           <div className="w-p-40 main">
             <h1 className='h1 '>
@@ -60,14 +60,14 @@ export default function Home() {
           <Image src="/picku_service.png" height={500} width={500} />
         </div>
         <div className="w-p-50">
-       
-            <h1 className='h1 w-p-50'>
-              Focused on Time Saving
-            </h1>
-            <p className="p ">
-              Open Auto Soothes the hassle of maintaining you vechile and helps your deals with unexpected repairs worry-free.
-            </p>
-            <Button classes="mt-1 custom-btn-input border-1-secondary" text="Download The Mobile App" />
+
+          <h1 className='h1 w-p-50'>
+            Focused on Time Saving
+          </h1>
+          <p className="p ">
+            Open Auto Soothes the hassle of maintaining you vechile and helps your deals with unexpected repairs worry-free.
+          </p>
+          <Button classes="mt-1 custom-btn-input border-1-secondary" text="Download The Mobile App" />
 
 
         </div>
