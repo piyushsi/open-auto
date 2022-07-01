@@ -17,7 +17,7 @@ body {
   background-color: #141A22;
 }
 .bg-primary-image{
-  background-image: url("../public/Pickup_Illustration.png");
+  background-image: url("./Pickup_Illustration.png");
   background-repeat: no-repeat;
   background-position: 92%;
   background-size: 50rem;
